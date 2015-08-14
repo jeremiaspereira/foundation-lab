@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Foundation | Jeremias Pereira</title>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Portfólio | Jeremias Pereira" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Bem-vindo ao meu portfolio com meus contatos e aplicações que já fiz." />
+    <meta property="og:url" content="http://jeremiaspereira.github.io/portfolio/" />
+    <meta property="og:image" content="http://jeremiaspereira.github.io/portfolio/assets/img/portfolio.png" />
+    <meta name="keywords" content="Jeremias Pereira, Portfólio, PHP, AngularJs, CSS, JavaScript, SASS, HTML, JSON, JQuery">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="assets/foundation/css/foundation.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">
+
+    <script src="assets/foundation/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>
+
+          <section class="middle tab-bar-section">
+            <h1 class="title"><i class="fi-filter"></i> Foundation lab</h1>
+          </section>
+        </nav>
+
+        <aside class="left-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Foundation</label></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+          </ul>
+        </aside>
+
+        <section class="main-section">
+          <article id="form">
+            <div class="header">
+              <h4>Form</h4>
+            </div>
+            <div class='content'>
+              <div class="row">
+                <div class="small-12 medium-8 medium-offset-2">
+                  <form>
+                    <div class="row collapse">
+                      <div class="small-3 large-2 columns">
+                        <span class="prefix">http://</span>
+                      </div>
+                      <div class="small-9 large-10 columns">
+                        <input type="text" placeholder="Enter your URL...">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="row collapse">
+                          <div class="small-10 columns">
+                            <input type="text" placeholder="Hex Value">
+                          </div>
+                          <div class="small-2 columns">
+                            <a href="#" class="button postfix">Go</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="small-6 columns">
+                        <div class="row collapse prefix-radius">
+                          <div class="small-3 columns">
+                            <span class="prefix">Label</span>
+                          </div>
+                          <div class="small-9 columns">
+                            <input type="text" placeholder="Value">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="small-6 columns">
+                        <div class="row collapse postfix-radius">
+                          <div class="small-9 columns">
+                            <input type="text" placeholder="Value">
+                          </div>
+                          <div class="small-3 columns">
+                            <span class="postfix">Label</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <hr>
+                  <form>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <label>Name
+                          <input type="text" placeholder="name" />
+                        </label>
+                        <label>Email
+                          <input type="text" placeholder="email" />
+                        </label>
+                      </div>
+                    </div>
+                     <div class="row">
+                        <div class="small-6 columns">
+                          <label>State
+                            <select>
+                              <option value="1">Acre</option>
+                              <option value="1">Alagoas</option>
+                              <option value="3">Amazonas</option>
+                              <option value="4">Amapá</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div class="small-6 columns">
+                          <label>City
+                            <select>
+                              <option value="1">Estiva</option>
+                              <option value="2">Pouso Alegre</option>
+                              <option value="3">Santa Rita do Sapucaí</option>
+                              <option value="4">Apollo</option>
+                            </select>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="small-6 columns">
+                            <label>Choose Your Favorite</label>
+                            <input type="radio" name="pokemon" value="Red" id="pokemonRed" checked><label for="pokemonRed">Red</label>
+                            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+                          </div>
+
+                          <div class="small-6 columns">
+                            <input id="checkbox1" type="checkbox"><label for="checkbox1">I agree.</label>
+                          </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          <article id="buttons">
+            <div class="header">
+              <h4>Buttons</h4>
+            </div>
+            <div class='content'>
+              <div class="row">
+                <div class="small-12 medium-8 medium-offset-2">
+
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+
+        <a class="exit-off-canvas"></a>
+      </div>
+    </div>
+
+
+    <footer>
+      <script src="assets/foundation/js/vendor/jquery.js"></script>
+      <script src="assets/foundation/js/foundation.min.js"></script>
+  </footer>
+  <script>
+    $(document).foundation();
+  </script>
+  </body>
+</html>

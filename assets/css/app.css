@@ -1,0 +1,13 @@
+article{
+  padding: 10px;
+}
+
+.header{
+  background: #eee;
+  padding: 3px 10px;
+}
+
+.content{
+  padding: 10px;
+  border:solid 1px #eee;
+}
