@@ -1,3 +1,7 @@
+.tab-bar-section h1{
+  font-style:'Open Sans', sans-serif;
+  font-size: 1.4em;
+}
 article{
   padding: 10px;
 }
@@ -8,6 +12,55 @@ article{
 }
 
 .content{
-  padding: 10px;
+  padding: 10px 15px 0 15px;
   border:solid 1px #eee;
+}
+
+hr{
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #C9C8C8 -moz-use-text-color -moz-use-text-color;
+  border-image: none;
+  border-style: dashed none none;
+  border-width: 1px 0 0;
+  color: #C9C8C8;
+  padding: 0;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#icons i{
+  padding-left:10px;
+}
+.style1 {
+  color: #b8d30b;
+  font-size: 70px;
+}
+
+.style2 {
+  color: #2daebf;
+  font-size: 30px;
+}
+.style3 {
+  color: #EDB469;
+  font-size: 40px;
+text-shadow: -1px 0px 3px rgba(0, 0, 0, 0.37);}
+
+.fi-social-facebook{
+  color:#3C599F;
+  font-size: 30px;
+}
+
+.fi-plus{
+  font-size: 40px;
+  color: #26B745;
+}
+.fi-home{
+  font-size: 40px;
+  color:#75C7F1;
+}
+.fi-filter{
+    color: #44DC93;
 }

@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
   <head>
-    <title>Foundation | Jeremias Pereira</title>
+    <title>Foundation lab | Jeremias Pereira</title>
     <meta charset="utf-8">
-    <meta property="og:title" content="Portfólio | Jeremias Pereira" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Bem-vindo ao meu portfolio com meus contatos e aplicações que já fiz." />
-    <meta property="og:url" content="http://jeremiaspereira.github.io/portfolio/" />
-    <meta property="og:image" content="http://jeremiaspereira.github.io/portfolio/assets/img/portfolio.png" />
-    <meta name="keywords" content="Jeremias Pereira, Portfólio, PHP, AngularJs, CSS, JavaScript, SASS, HTML, JSON, JQuery">
+    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width">
-
     <link href="assets/foundation/css/foundation.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">
@@ -32,130 +26,231 @@
 
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
-            <li><label>Foundation</label></li>
+            <li><label>Foundation lab</label></li>
             <li><a href="#form">Form</a></li>
             <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#icons">Icons</a></li>
           </ul>
         </aside>
 
         <section class="main-section">
-          <article id="form">
-            <div class="header">
-              <h4>Form</h4>
-            </div>
-            <div class='content'>
-              <div class="row">
-                <div class="small-12 medium-8 medium-offset-2">
-                  <form>
-                    <div class="row collapse">
-                      <div class="small-3 large-2 columns">
-                        <span class="prefix">http://</span>
-                      </div>
-                      <div class="small-9 large-10 columns">
-                        <input type="text" placeholder="Enter your URL...">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="large-12 columns">
+          <div class="row">
+            <div class="small-12">
+              <article id="form">
+                <div class="header">
+                  <h4>Form</h4>
+                </div>
+                <div class='content'>
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <form>
                         <div class="row collapse">
-                          <div class="small-10 columns">
-                            <input type="text" placeholder="Hex Value">
+                          <div class="small-3 large-2 columns">
+                            <span class="prefix">http://</span>
                           </div>
-                          <div class="small-2 columns">
-                            <a href="#" class="button postfix">Go</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="small-6 columns">
-                        <div class="row collapse prefix-radius">
-                          <div class="small-3 columns">
-                            <span class="prefix">Label</span>
-                          </div>
-                          <div class="small-9 columns">
-                            <input type="text" placeholder="Value">
+                          <div class="small-9 large-10 columns">
+                            <input type="text" placeholder="Enter your URL...">
                           </div>
                         </div>
-                      </div>
-                      <div class="small-6 columns">
-                        <div class="row collapse postfix-radius">
-                          <div class="small-9 columns">
-                            <input type="text" placeholder="Value">
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <div class="row collapse">
+                              <div class="small-8 medium-10 columns">
+                                <input type="text" placeholder="Hex Value">
+                              </div>
+                              <div class="small-4 medium-2 columns">
+                                <a href="#" class="button postfix">Go</a>
+                              </div>
+                            </div>
                           </div>
-                          <div class="small-3 columns">
-                            <span class="postfix">Label</span>
-                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </form>
-                  <hr>
-                  <form>
-                    <div class="row">
-                      <div class="large-12 columns">
-                        <label>Name
-                          <input type="text" placeholder="name" />
-                        </label>
-                        <label>Email
-                          <input type="text" placeholder="email" />
-                        </label>
-                      </div>
-                    </div>
-                     <div class="row">
-                        <div class="small-6 columns">
-                          <label>State
-                            <select>
-                              <option value="1">Acre</option>
-                              <option value="1">Alagoas</option>
-                              <option value="3">Amazonas</option>
-                              <option value="4">Amapá</option>
-                            </select>
-                          </label>
-                        </div>
-                        <div class="small-6 columns">
-                          <label>City
-                            <select>
-                              <option value="1">Estiva</option>
-                              <option value="2">Pouso Alegre</option>
-                              <option value="3">Santa Rita do Sapucaí</option>
-                              <option value="4">Apollo</option>
-                            </select>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="row">
+                        <div class="row">
                           <div class="small-6 columns">
-                            <label>Choose Your Favorite</label>
-                            <input type="radio" name="pokemon" value="Red" id="pokemonRed" checked><label for="pokemonRed">Red</label>
-                            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+                            <div class="row collapse prefix-radius">
+                              <div class="small-5 medium-3  columns">
+                                <span class="prefix">Label</span>
+                              </div>
+                              <div class="small-7 medium-9 columns">
+                                <input type="text" placeholder="Value">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="small-6 columns">
+                            <div class="row collapse postfix-radius">
+                              <div class="small-7 medium-9 columns">
+                                <input type="text" placeholder="Value">
+                              </div>
+                              <div class="small-5 medium-3 columns">
+                                <span class="postfix">Label</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+
+                      <form>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label>Name
+                              <input type="text" placeholder="name" />
+                            </label>
+                            <label>Email
+                              <input type="text" placeholder="email" />
+                            </label>
+                          </div>
+                        </div>
+                         <div class="row">
+                            <div class="small-12 medium-6 columns">
+                              <label>State
+                                <select>
+                                  <option value="1">Acre</option>
+                                  <option value="1">Alagoas</option>
+                                  <option value="3">Amazonas</option>
+                                  <option value="4">Amapá</option>
+                                </select>
+                              </label>
+                            </div>
+                            <div class="small-12 medium-6 columns">
+                              <label>City
+                                <select>
+                                  <option value="1">Estiva</option>
+                                  <option value="2">Pouso Alegre</option>
+                                  <option value="3">Santa Rita do Sapucaí</option>
+                                  <option value="4">Apollo</option>
+                                </select>
+                              </label>
+                            </div>
                           </div>
 
-                          <div class="small-6 columns">
-                            <input id="checkbox1" type="checkbox"><label for="checkbox1">I agree.</label>
+                          <div class="row">
+                            <div class="small-12 medium-6 columns">
+                              <label>Choose Your Favorite</label>
+                              <input type="radio" name="pokemon" value="Red" id="pokemonRed" checked><label for="pokemonRed">Red</label>
+                              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+                            </div>
+
+                            <div class="small-12 medium-6 columns">
+                              <input id="checkbox1" type="checkbox"><label for="checkbox1">I agree.</label>
+                            </div>
                           </div>
+
+                          <div class="row">
+                            <div class="small-6 medium-6 columns">
+                            <h5>Rendered Checkbox HTML Rendered</h5>
+                              <div class="switch">
+                                <input id="exampleCheckboxSwitch" type="checkbox">
+                                <label for="exampleCheckboxSwitch"></label>
+                              </div>
+
+                              <div class="switch small">
+                                <input id="exampleCheckboxSwitch1" type="checkbox">
+                                <label for="exampleCheckboxSwitch1"></label>
+                              </div>
+
+                              <div class="switch large">
+                                <input id="exampleCheckboxSwitch2" type="checkbox">
+                                <label for="exampleCheckboxSwitch2"></label>
+                              </div>
+
+                              <div class="switch round">
+                                <input id="exampleCheckboxSwitch3" type="checkbox">
+                                <label for="exampleCheckboxSwitch3"></label>
+                              </div>
+                            </div>
+
+                            <div class="small-6 medium-6 columns">
+                              <h5>Rendered Radio HTML</h5>
+                              <div class="switch small">
+                                <input id="exampleRadioSwitch4" type="radio" checked name="testGroup">
+                                <label for="exampleRadioSwitch4"></label>
+                              </div>
+
+                              <div class="switch radius">
+                                <input id="exampleRadioSwitch5" type="radio" name="testGroup">
+                                <label for="exampleRadioSwitch5"></label>
+                              </div>
+
+                              <div class="switch large">
+                                <input id="exampleRadioSwitch6" type="radio" name="testGroup">
+                                <label for="exampleRadioSwitch6"></label>
+                              </div>
+                              <div class="switch round">
+                                <input id="exampleRadioSwitch7" type="radio" name="testGroup">
+                                <label for="exampleRadioSwitch7"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
                       </div>
-                    </form>
+                    </div>
+                  </div>
+              </article>
+
+              <article id="buttons">
+                <div class="header">
+                  <h4>Buttons</h4>
+                </div>
+                <div class='content'>
+                  <div class="row">
+                    <div class="small-12 medium-4 columns">
+                      <a href="#" class="button tiny">Tiny Button</a>
+                      <br>
+                      <a href="#" class="button small">Small Button</a>
+                      <br>
+                      <a href="#" class="button">Default Button</a>
+                      <br>
+                      <a href="#" class="button large">Large Button</a>
+                      <br>
+                      <a href="#" class="button disabled">Disabled Button</a>
+                      <br>
+                      <a href="#" class="button expand">Expanded Button</a>
+                    </div>
+                    <div class="small-12 medium-4 columns">
+                      <a href="#" class="button">Default Button</a>
+                      <br>
+                      <a href="#" class="button radius">Radius Button</a>
+                      <br>
+                      <a href="#" class="button round">Round Button</a>
+                    </div>
+                    <div class="small-12 medium-4 columns">
+                      <a href="#" class="button">Default Button</a>
+                      <br>
+                      <a href="#" class="button success">Success Button</a>
+                      <br>
+                      <a href="#" class="button secondary">Secondary Button</a>
+                      <br>
+                      <a href="#" class="button alert">Alert Button</a>
+                      <br>
+                      <a href="#" class="button info">Info Button</a>
+                      <br>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </article>
+              </article><!--#buttons-->
 
-          <article id="buttons">
-            <div class="header">
-              <h4>Buttons</h4>
-            </div>
-            <div class='content'>
-              <div class="row">
-                <div class="small-12 medium-8 medium-offset-2">
-
+              <article id="icons">
+                <div class="header">
+                  <h4>Icons</h4>
                 </div>
-              </div>
+                <div class='content'>
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <i class="fi-plus"></i>
+                      <i class="fi-home"></i>
+                      <i class="fi-social-zurb style1"></i>
+                      <i class="fi-social-facebook"></i>
+                      <i class="fi-cloud style2"></i>
+                      <i class="fi-torso style3"></i>
+                      <i class="fi-social-github"></i>
+                      <i class="fi-page"></i>
+                      <i class="fi-filter"></i>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </div>
-          </article>
+          </div>
         </section>
-
-
         <a class="exit-off-canvas"></a>
       </div>
     </div>
