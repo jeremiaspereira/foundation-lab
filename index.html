@@ -3,7 +3,7 @@
   <head>
     <title>Foundation lab | Jeremias Pereira</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="Foundation">
+    <meta name="keywords" content="Foundation, CSS, HTML, Lab">
     <meta name="viewport" content="width=device-width">
     <link href="assets/foundation/css/foundation.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/app.css">
@@ -22,13 +22,15 @@
             <h1 class="title"><i class="fi-filter"></i> Foundation lab</h1>
           </section>
         </nav>
-
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
             <li><label>Foundation lab</label></li>
             <li><a href="#form">Form</a></li>
             <li><a href="#buttons">Buttons</a></li>
             <li><a href="#icons">Icons</a></li>
+            <li><a href="#orbit">Orbit</a></li>
+            <li><a href="#alert">Alert</a></li>
+            <li><a href="#label">Label</a></li>
           </ul>
         </aside>
 
@@ -247,6 +249,112 @@
                   </div>
                 </div>
               </article>
+
+              <article id="orbit">
+                <div class="header">
+                  <h4>Orbit</h4>
+                </div>
+                <div class='content'>
+                  <ul class="example-orbit" data-orbit>
+                    <li>
+                      <img src="https://farm8.staticflickr.com/7794/17362818913_e9fdd5646d_b.jpg" alt="slide 1" />
+                      <div class="orbit-caption">
+                        <a href="https://www.flickr.com/photos/jeremiaspereira/17362818913/in/dateposted-public/" target="_blank">Pico dos Marins - SP</a>
+                      </div>
+                    </li>
+                    <li class="active">
+                      <img src="https://farm3.staticflickr.com/2890/12181079674_e4ea49e292_b.jpg" alt="slide 2" />
+                      <div class="orbit-caption">
+                        <a href="https://www.flickr.com/photos/jeremiaspereira/12181079674/in/dateposted-public/" target="_blank">Poços de Caldas - MG</a>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="https://farm6.staticflickr.com/5520/10894637643_1117e7f8f0_b.jpg" alt="slide 3" />
+                      <div class="orbit-caption">
+                          <a href="https://www.flickr.com/photos/jeremiaspereira/10894637643/in/dateposted-public/" target="_blank">Margarida</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <img src="https://farm3.staticflickr.com/2884/10512498954_6606c9a061_b.jpg" alt="slide 4" />
+                      <div class="orbit-caption">
+                          <a href="https://www.flickr.com/photos/jeremiaspereira/10512498954/in/dateposted-public/" target="_blank">Agulhas Negras - RJ</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+              <article id="alert">
+                <div class="header">
+                  <h4>Alert</h4>
+                </div>
+                <div class='content'>
+                 <div class="row">
+                    <div class="small-12 columns">
+                      <div data-alert class="alert-box">
+                        Alert primary
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                       <div data-alert class="alert-box success">
+                        Alert success
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box warning">
+                        Alert warning
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box info">
+                        Alert info
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box alert">
+                        Alert alert
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box secondary">
+                        Alert secondary
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box secondary radius">
+                        Alert radius
+                        <a href="#" class="close">&times;</a>
+                      </div>
+
+                      <div data-alert class="alert-box secondary round">
+                        This round.
+                        <a href="#" class="close">&times;</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article id="label">
+                <div class="header">
+                  <h4>Label</h4>
+                </div>
+                <div class='content'>
+                 <div class="row">
+                    <div class="small-12 columns">
+                        <span class="label">Label</span>
+                        <span class="label success">Label success</span>
+                        <span class="label warning">Lable warning</span>
+                        <span class="label info">Label info</span>
+                        <span class="label secondary">Label secondary</span>
+                        <span class="label radius">Label radius</span>
+                        <span class="label round">Label round</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
             </div>
           </div>
         </section>
@@ -254,13 +362,12 @@
       </div>
     </div>
 
-
     <footer>
       <script src="assets/foundation/js/vendor/jquery.js"></script>
       <script src="assets/foundation/js/foundation.min.js"></script>
-  </footer>
-  <script>
-    $(document).foundation();
-  </script>
+    </footer>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
